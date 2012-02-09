@@ -10,12 +10,14 @@ require "faraday"
 require "net/http"
 
 # create a new Serial port for the Arduino Uno which uses port /dev/ttyACM0. Older Arduinos should use /dev/ttyUSB0
-sp = SerialPort.new("/dev/ttyACM0", 9600)
+#sp = SerialPort.new("/dev/ttyACM0", 9600)
+sp = SerialPort.new("/dev/ttyUSB0", 9600)
 
 # wait for connection
 sleep(1)
 
 # create a new Faraday connection with the Jenkins server to read the status of each job
+#  you need to create this url in your .bashrc
 api_url = ENV['JENKINS_URL']
 conn = Faraday.new(:url => api_url)
 # grab the json from the jenkins api
