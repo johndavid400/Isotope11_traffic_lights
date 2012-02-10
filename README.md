@@ -1,4 +1,4 @@
-## Isotope11 Traffic lights
+## Monitoring your Continuous Integration Server with Traffic Lights and an Arduino
 ### A way for Isotope11 to visually monitor the testing status of its many software projects.
 Today I am going to walk through our recent continuous integration Traffic light
 notifier project that we just finished at the office. This project stemmed from
