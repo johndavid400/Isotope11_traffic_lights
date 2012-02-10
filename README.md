@@ -11,7 +11,7 @@ the light turns red to provide a visual notification of a problem. While Jenkins
 is running a test suite on any project, the yellow light will flash to let us
 know of the activity.
 
-<object type="application/x-shockwave-flash" width="400" height="225" data="http://www.flickr.com/apps/video/stewart.swf?v=109786" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param name="flashvars" value="intl_lang=en-us&photo_secret=a6988e2c72&photo_id=6853370057"></param> <param name="movie" value="http://www.flickr.com/apps/video/stewart.swf?v=109786"></param> <param name="bgcolor" value="#000000"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/video/stewart.swf?v=109786" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&photo_secret=a6988e2c72&photo_id=6853370057" height="225" width="400"></embed></object>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/3T5fEV5YHYo" frameborder="0" allowfullscreen></iframe>
 
 So how does one connect a 48” tall traffic light to a continuous integration
 server? With a Ruby script, an Arduino, and a few relays of course.
@@ -116,7 +116,7 @@ would like to build a smaller desktop version of the notifier, you can do so
 with only an Arduino and a few LEDs (red, yellow, and green) - you don't even
 have to solder anything!
 
-(insert arduino mega led traffic-light here)
+<a href="http://www.flickr.com/photos/knewter/6853546789/" title="Poor man's traffic light by knewter, on Flickr"><img src="http://farm8.staticflickr.com/7151/6853546789_d2b5540d8f.jpg" width="500" height="281" alt="Poor man's traffic light"></a>
 
     // Isotope11 CI-server traffic light
     // Arduino Uno with 2 relays (SPDT) attached to pins 4 and 7
